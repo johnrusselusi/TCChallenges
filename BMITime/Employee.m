@@ -9,11 +9,13 @@
 #import "Employee.h"
 #import "Asset.h"
 
+
 @implementation Employee
 
 @synthesize employeeID;
 - (void)addAssetsObject:(Asset *)a
 {
+
     //  Is asset nil?
     if (!assets) {
         //  Create the array

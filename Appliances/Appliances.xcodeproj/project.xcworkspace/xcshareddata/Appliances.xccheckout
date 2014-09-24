@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8ECB9DD8-E54E-48A4-B44E-5AAA15DCB2B9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Appliances</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>85CD32AD-31B3-44F3-B07E-3916D76331B7</key>
+		<string>https://github.com/johnrusselusi/TCChallenges.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Appliances/Appliances.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>85CD32AD-31B3-44F3-B07E-3916D76331B7</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/johnrusselusi/TCChallenges.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>85CD32AD-31B3-44F3-B07E-3916D76331B7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>85CD32AD-31B3-44F3-B07E-3916D76331B7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TCChallenges</string>
+		</dict>
+	</array>
+</dict>
+</plist>

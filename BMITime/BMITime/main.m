@@ -16,7 +16,15 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         //  Create an array of Employee objects
         NSMutableArray *employees = [[NSMutableArray alloc]init];
-        
+      
+//      Employee *employee1 = [[Employee alloc]init];
+//      Asset    *asset1 = [[Asset alloc]init];
+//      
+//      [asset1 setLabel:@"Laptop 21"];
+//      
+//      [employee1 addAssetsObject:asset1];
+      
+      
         for (int i = 0; i < 10; i++) {
            
             //  Create an instance of Employee
