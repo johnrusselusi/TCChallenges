@@ -7,83 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19A0515B19CFA6FA004D1040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A0515A19CFA6FA004D1040 /* Foundation.framework */; };
-		19A0515E19CFA6FA004D1040 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A0515D19CFA6FA004D1040 /* main.m */; };
-		19A0516219CFA6FA004D1040 /* AnimalKingdom.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19A0516119CFA6FA004D1040 /* AnimalKingdom.1 */; };
+		198C063519D2B91B007970AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198C063419D2B91B007970AB /* Foundation.framework */; };
+		198C063819D2B91B007970AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 198C063719D2B91B007970AB /* main.m */; };
+		198C063C19D2B91B007970AB /* AnimalKIngdom.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 198C063B19D2B91B007970AB /* AnimalKIngdom.1 */; };
+		198C064419D2B94D007970AB /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 198C064319D2B94D007970AB /* Animal.m */; };
+		198C064719D2BACB007970AB /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 198C064619D2BACB007970AB /* Dog.m */; };
+		198C064A19D2BB27007970AB /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 198C064919D2BB27007970AB /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		19A0515519CFA6FA004D1040 /* CopyFiles */ = {
+		198C062F19D2B91B007970AB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				19A0516219CFA6FA004D1040 /* AnimalKingdom.1 in CopyFiles */,
+				198C063C19D2B91B007970AB /* AnimalKIngdom.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		19A0515719CFA6FA004D1040 /* AnimalKingdom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnimalKingdom; sourceTree = BUILT_PRODUCTS_DIR; };
-		19A0515A19CFA6FA004D1040 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		19A0515D19CFA6FA004D1040 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		19A0516019CFA6FA004D1040 /* AnimalKingdom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimalKingdom-Prefix.pch"; sourceTree = "<group>"; };
-		19A0516119CFA6FA004D1040 /* AnimalKingdom.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AnimalKingdom.1; sourceTree = "<group>"; };
+		198C063119D2B91B007970AB /* AnimalKIngdom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnimalKIngdom; sourceTree = BUILT_PRODUCTS_DIR; };
+		198C063419D2B91B007970AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		198C063719D2B91B007970AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		198C063A19D2B91B007970AB /* AnimalKIngdom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimalKIngdom-Prefix.pch"; sourceTree = "<group>"; };
+		198C063B19D2B91B007970AB /* AnimalKIngdom.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AnimalKIngdom.1; sourceTree = "<group>"; };
+		198C064219D2B94D007970AB /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Animal.h; path = AnimalKIngdom/Animal.h; sourceTree = "<group>"; };
+		198C064319D2B94D007970AB /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Animal.m; path = AnimalKIngdom/Animal.m; sourceTree = "<group>"; };
+		198C064519D2BACB007970AB /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dog.h; path = AnimalKIngdom/Dog.h; sourceTree = "<group>"; };
+		198C064619D2BACB007970AB /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dog.m; path = AnimalKIngdom/Dog.m; sourceTree = "<group>"; };
+		198C064819D2BB27007970AB /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cat.h; path = AnimalKIngdom/Cat.h; sourceTree = "<group>"; };
+		198C064919D2BB27007970AB /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cat.m; path = AnimalKIngdom/Cat.m; sourceTree = "<group>"; };
+		198C064B19D2BB71007970AB /* Pet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Pet.h; path = AnimalKIngdom/Pet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		19A0515419CFA6FA004D1040 /* Frameworks */ = {
+		198C062E19D2B91B007970AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A0515B19CFA6FA004D1040 /* Foundation.framework in Frameworks */,
+				198C063519D2B91B007970AB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19A0514E19CFA6FA004D1040 = {
+		198C062819D2B91B007970AB = {
 			isa = PBXGroup;
 			children = (
-				19A0515C19CFA6FA004D1040 /* AnimalKingdom */,
-				19A0515919CFA6FA004D1040 /* Frameworks */,
-				19A0515819CFA6FA004D1040 /* Products */,
+				198C064219D2B94D007970AB /* Animal.h */,
+				198C064319D2B94D007970AB /* Animal.m */,
+				198C064519D2BACB007970AB /* Dog.h */,
+				198C064819D2BB27007970AB /* Cat.h */,
+				198C064919D2BB27007970AB /* Cat.m */,
+				198C064619D2BACB007970AB /* Dog.m */,
+				198C064B19D2BB71007970AB /* Pet.h */,
+				198C063619D2B91B007970AB /* AnimalKIngdom */,
+				198C063319D2B91B007970AB /* Frameworks */,
+				198C063219D2B91B007970AB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		19A0515819CFA6FA004D1040 /* Products */ = {
+		198C063219D2B91B007970AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19A0515719CFA6FA004D1040 /* AnimalKingdom */,
+				198C063119D2B91B007970AB /* AnimalKIngdom */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		19A0515919CFA6FA004D1040 /* Frameworks */ = {
+		198C063319D2B91B007970AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				19A0515A19CFA6FA004D1040 /* Foundation.framework */,
+				198C063419D2B91B007970AB /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		19A0515C19CFA6FA004D1040 /* AnimalKingdom */ = {
+		198C063619D2B91B007970AB /* AnimalKIngdom */ = {
 			isa = PBXGroup;
 			children = (
-				19A0515D19CFA6FA004D1040 /* main.m */,
-				19A0516119CFA6FA004D1040 /* AnimalKingdom.1 */,
-				19A0515F19CFA6FA004D1040 /* Supporting Files */,
+				198C063719D2B91B007970AB /* main.m */,
+				198C063B19D2B91B007970AB /* AnimalKIngdom.1 */,
+				198C063919D2B91B007970AB /* Supporting Files */,
 			);
-			path = AnimalKingdom;
+			path = AnimalKIngdom;
 			sourceTree = "<group>";
 		};
-		19A0515F19CFA6FA004D1040 /* Supporting Files */ = {
+		198C063919D2B91B007970AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				19A0516019CFA6FA004D1040 /* AnimalKingdom-Prefix.pch */,
+				198C063A19D2B91B007970AB /* AnimalKIngdom-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -91,62 +108,65 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19A0515619CFA6FA004D1040 /* AnimalKingdom */ = {
+		198C063019D2B91B007970AB /* AnimalKIngdom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19A0516519CFA6FA004D1040 /* Build configuration list for PBXNativeTarget "AnimalKingdom" */;
+			buildConfigurationList = 198C063F19D2B91B007970AB /* Build configuration list for PBXNativeTarget "AnimalKIngdom" */;
 			buildPhases = (
-				19A0515319CFA6FA004D1040 /* Sources */,
-				19A0515419CFA6FA004D1040 /* Frameworks */,
-				19A0515519CFA6FA004D1040 /* CopyFiles */,
+				198C062D19D2B91B007970AB /* Sources */,
+				198C062E19D2B91B007970AB /* Frameworks */,
+				198C062F19D2B91B007970AB /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AnimalKingdom;
-			productName = AnimalKingdom;
-			productReference = 19A0515719CFA6FA004D1040 /* AnimalKingdom */;
+			name = AnimalKIngdom;
+			productName = AnimalKIngdom;
+			productReference = 198C063119D2B91B007970AB /* AnimalKIngdom */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		19A0514F19CFA6FA004D1040 /* Project object */ = {
+		198C062919D2B91B007970AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "John Russel Usi";
 			};
-			buildConfigurationList = 19A0515219CFA6FA004D1040 /* Build configuration list for PBXProject "AnimalKingdom" */;
+			buildConfigurationList = 198C062C19D2B91B007970AB /* Build configuration list for PBXProject "AnimalKIngdom" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 19A0514E19CFA6FA004D1040;
-			productRefGroup = 19A0515819CFA6FA004D1040 /* Products */;
+			mainGroup = 198C062819D2B91B007970AB;
+			productRefGroup = 198C063219D2B91B007970AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19A0515619CFA6FA004D1040 /* AnimalKingdom */,
+				198C063019D2B91B007970AB /* AnimalKIngdom */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19A0515319CFA6FA004D1040 /* Sources */ = {
+		198C062D19D2B91B007970AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A0515E19CFA6FA004D1040 /* main.m in Sources */,
+				198C064A19D2BB27007970AB /* Cat.m in Sources */,
+				198C064719D2BACB007970AB /* Dog.m in Sources */,
+				198C063819D2B91B007970AB /* main.m in Sources */,
+				198C064419D2B94D007970AB /* Animal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		19A0516319CFA6FA004D1040 /* Debug */ = {
+		198C063D19D2B91B007970AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +204,7 @@
 			};
 			name = Debug;
 		};
-		19A0516419CFA6FA004D1040 /* Release */ = {
+		198C063E19D2B91B007970AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,20 +236,20 @@
 			};
 			name = Release;
 		};
-		19A0516619CFA6FA004D1040 /* Debug */ = {
+		198C064019D2B91B007970AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AnimalKingdom/AnimalKingdom-Prefix.pch";
+				GCC_PREFIX_HEADER = "AnimalKIngdom/AnimalKIngdom-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		19A0516719CFA6FA004D1040 /* Release */ = {
+		198C064119D2B91B007970AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AnimalKingdom/AnimalKingdom-Prefix.pch";
+				GCC_PREFIX_HEADER = "AnimalKIngdom/AnimalKIngdom-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -237,24 +257,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19A0515219CFA6FA004D1040 /* Build configuration list for PBXProject "AnimalKingdom" */ = {
+		198C062C19D2B91B007970AB /* Build configuration list for PBXProject "AnimalKIngdom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19A0516319CFA6FA004D1040 /* Debug */,
-				19A0516419CFA6FA004D1040 /* Release */,
+				198C063D19D2B91B007970AB /* Debug */,
+				198C063E19D2B91B007970AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19A0516519CFA6FA004D1040 /* Build configuration list for PBXNativeTarget "AnimalKingdom" */ = {
+		198C063F19D2B91B007970AB /* Build configuration list for PBXNativeTarget "AnimalKIngdom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19A0516619CFA6FA004D1040 /* Debug */,
-				19A0516719CFA6FA004D1040 /* Release */,
+				198C064019D2B91B007970AB /* Debug */,
+				198C064119D2B91B007970AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 19A0514F19CFA6FA004D1040 /* Project object */;
+	rootObject = 198C062919D2B91B007970AB /* Project object */;
 }

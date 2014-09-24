@@ -46,7 +46,6 @@ int main(int argc, const char * argv[])
             NSLog(@"%@", p);
           }
         }
-        getchar();
         break;
       case 5:
         for (Student *s in personsArray){
@@ -55,7 +54,6 @@ int main(int argc, const char * argv[])
             NSLog(@"%@", s);
           }
         }
-        getchar();
         break;
       case 6:
         for (Employee *e in personsArray){
@@ -64,7 +62,6 @@ int main(int argc, const char * argv[])
             NSLog(@"%@", e);
           }
         }
-        getchar();
         break;
       case 7:
         return 0;

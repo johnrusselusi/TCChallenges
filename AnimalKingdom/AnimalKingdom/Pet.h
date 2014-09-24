@@ -1,5 +1,5 @@
 //
-//  Animal.h
+//  Pet.h
 //  AnimalKIngdom
 //
 //  Created by John Russel Usi on 9/24/14.
@@ -8,12 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Animal : NSObject
+@protocol Pet <NSObject>
 
-@property int numberOfLegs;
-@property float height;
-@property float weight;
-
-- (void)eat:(NSString *)food;
+- (void)fetch;
+- (void)rollOver;
 
 @end

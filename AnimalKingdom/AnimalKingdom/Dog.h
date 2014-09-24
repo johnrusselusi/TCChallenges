@@ -1,5 +1,5 @@
 //
-//  Animal.m
+//  Dog.h
 //  AnimalKIngdom
 //
 //  Created by John Russel Usi on 9/24/14.
@@ -7,14 +7,10 @@
 //
 
 #import "Animal.h"
+#import "Pet.h"
 
-@implementation Animal
+@interface Dog : Animal <Pet>
 
-@synthesize numberOfLegs, height, weight;
-
-- (void)eat:(NSString *)food{
-  
-  NSLog(@"%@ is now eating %@", self, food);
-}
+- (void)bark;
 
 @end
